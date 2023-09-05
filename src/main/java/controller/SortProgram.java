@@ -54,6 +54,7 @@ public class SortProgram extends Menu<String> {
                 
                 switch (n) {
                     case 1 -> {
+                        
                         System.out.println("Unsorted array: ");
                         library.display(array);
                         algorithm.buddleSort(array);
