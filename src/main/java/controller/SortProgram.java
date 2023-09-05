@@ -51,16 +51,19 @@ public class SortProgram extends Menu<String> {
 
             @Override
             public void execute(int n) {
-                System.out.println("Unsorted array: ");
-                library.display(array);
+                
                 switch (n) {
                     case 1 -> {
+                        System.out.println("Unsorted array: ");
+                        library.display(array);
                         algorithm.buddleSort(array);
                         System.out.println("\nSorted array by Buddle Sort: ");
                         library.display(array);
                         System.out.println("");
                     }
                     case 2 -> {
+                        System.out.println("Unsorted array: ");
+                        library.display(array);
                         algorithm.quickSort(array, 0, size_array - 1);
                         System.out.println("\nSorted array by Quick Sort: ");
                         library.display(array);
