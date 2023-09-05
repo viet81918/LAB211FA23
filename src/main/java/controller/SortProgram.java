@@ -42,7 +42,7 @@ public class SortProgram extends Menu<String> {
     }
 
     public void sort() {
-        final String[] mcSort = {" Buddle Sort", " Quick Sort", "Exit"};
+        final String[] mcSort = {"Buddle Sort", "Quick Sort", "Exit"};
         class SortMenu extends Menu<String> {
 
             public SortMenu() {
